@@ -10,6 +10,9 @@ const currentYear = new Date().getFullYear();
 const newYearTime = new Date(`January 01 ${currentYear + 1} 00:00:00`);
 
 
+// Set background year
+year.innerText = currentYear + 1;
+
 function updateCountdown() {
     const currentTime = new Date();
     const diff = newYearTime - currentTime;
@@ -25,4 +28,13 @@ function updateCountdown() {
     minutes.innerHTML = m < 10 ? '0' + m : m;
     seconds.innerHTML = s < 10 ? '0' + s : s;
   }
+
+  // Show spinner before countdown
+setTimeout(() => {
+    loading.remove();
+    countdown.style.display = 'flex';
+  }, 1000);
+  
+  // Run every second
+  setInterval(updateCountdown, 1000);
   

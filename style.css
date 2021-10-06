@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url(https://images.unsplash.com/photo-1633420619728-4d0c76103882?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1127&q=80) no-repeat center center/cover;
+    background: url(https://images.unsplash.com/photo-1609421141185-8a4f37a5d063?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG5ldyUyMHllYXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat center center/cover;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
